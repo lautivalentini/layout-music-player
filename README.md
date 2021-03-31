@@ -1,3 +1,3 @@
 ## Layout of a Music Player
 
-![ScreenShot](https://raw.githubusercontent.com/lautivalentini/layout-music-player/main/screen.PNG)
+![ScreenShot](https://res.cloudinary.com/dbmjbmxo6/image/upload/v1617195758/screen_ujnnxz.png)
