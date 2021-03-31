@@ -1,0 +1,27 @@
+.bodySongsCard {
+  width: 100%;
+  max-width: 290px;
+  margin-top: 20px;
+  .listSongs {
+    li {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 10px 0;
+      font-size: 12px;
+      font-family: Noto Sans;
+      color: var(--textColor);
+    }
+    .selectedSong {
+      color: var(--selectedColor);
+      .imageVol {
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right: -35px;
+        background-image: url("../../assets/volumen.svg");
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.buttons {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .repeat {
+    width: 32px;
+    height: 32px;
+    background: transparent url("../../assets/repeat.svg") no-repeat;
+  }
+  .back {
+    width: 32px;
+    height: 16px;
+    background: transparent url("../../assets/back.svg") no-repeat;
+  }
+  .elipse {
+    width: 48px;
+    height: 48px;
+    background: transparent url("../../assets/elipse.svg") no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .play {
+      width: 32px;
+      height: 32px;
+      background: transparent url("../../assets/play.svg") no-repeat;
+    }
+  }
+  .next {
+    width: 32px;
+    height: 32px;
+    background: transparent url("../../assets/next.svg") no-repeat;
+  }
+  .shuffle {
+    width: 32px;
+    height: 32px;
+    background: transparent url("../../assets/shuffle.svg") no-repeat;
+  }
+}

@@ -1,0 +1,25 @@
+.linePlay {
+  position: relative;
+  width: 80%;
+  height: 3px;
+  margin: 30px auto;
+  background-color: var(--secondaryColor);
+  .lineReproduced {
+    position: absolute;
+    top: 0;
+    width: 70%;
+    height: 3px;
+    background-color: var(--playColor);
+  }
+  .elipseButton {
+    position: absolute;
+    top: -6.5px;
+    right: 30%;
+    width: 16px;
+    height: 16px;
+    background-color: var(--playColor);
+    border: 2px solid var(--secondaryColor);
+    border-radius: 50%;
+    z-index: 1;
+  }
+}

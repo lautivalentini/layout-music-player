@@ -1,0 +1,29 @@
+.songsCard {
+  width: 90%;
+  max-width: 370px;
+  height: 370px;
+  padding: 30px;
+  @media screen and (max-width: 800px) {
+    padding: 30px 30px 30px 0px;
+  }
+  .navbarSongsCard {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: var(--textColor);
+    .title {
+      font-size: 24px;
+    }
+    .subtitle {
+      font-size: 16px;
+      font-family: Noto Sans;
+    }
+  }
+  .imageFav {
+    position: absolute;
+    right: -16px;
+    width: 20px;
+    height: 18px;
+    background-image: url("../../assets/heart.svg");
+  }
+}
